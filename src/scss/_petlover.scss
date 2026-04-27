@@ -1,0 +1,32 @@
+.petlover {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: clamp(3.125rem, 1.99rem + 5.676vi, 8.375rem);
+  max-width: 1668px;
+  padding-top: 60px;
+  padding-bottom: 90px;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+  &__decor {
+    max-width: 109px;
+    @media screen and (max-width: 992px) {
+      display: none;
+    }
+  }
+  &__text {
+    max-width: 625px;
+    flex: 1;
+  }
+  &__title {
+    margin-bottom: 30px;
+  }
+  &__desc {
+    margin-bottom: 50px;
+  }
+  &__media {
+    max-width: 654px;
+    flex: 1;
+  }
+}
