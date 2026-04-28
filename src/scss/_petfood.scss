@@ -1,0 +1,48 @@
+.petfood {
+  background-color: #d0e1ee;
+  max-width: 1668px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0;
+  padding-top: clamp(3.125rem, 2.65rem + 2.533vi, 5.5rem);
+  padding-bottom: 91px;
+  gap: clamp(3.125rem, 1.088rem + 10.867vi, 13.313rem);
+  position: relative;
+  @media screen and (max-width: 1400px) {
+    flex-direction: column;
+  }
+  &__decore {
+    position: absolute;
+    width: 426px;
+    right: 0;
+    bottom: 0;
+    transform: translateY(25%);
+  }
+  &__img {
+    max-width: 892px;
+    @media screen and (max-width: 992px) {
+      padding-left: 15px;
+    }
+  }
+  &__text {
+    max-width: 702px;
+    padding-right: 201px;
+    padding-left: 15px;
+    @media screen and (max-width: 1400px) {
+      padding-right: 0;
+    }
+  }
+  &__title {
+    margin-bottom: 30px;
+  }
+  &__desc {
+    margin-bottom: 50px;
+  }
+  &__btn {
+    @media screen and (max-width: 600px) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
