@@ -19,17 +19,12 @@ import svgSprite from "gulp-svg-sprite"; //создание svg файла с г
 
 //массивы путей для return gulp.src
 const cssFiles = [
-  "./src/css/star_rating.css",
-  "./src/css/swiper-bundle.min.css",
-  "./src/css/calendar.css",
+  "./src/css/swiper-bundle.min.css"
 ];
 const scssFiles = ["./src/scss/**/*.scss"];
-const jsFiles = [
-  "./src/js/main.js",
-];
+const jsFiles = ["./src/js/main.js"];
 const jsLibsFiles = [
-  "./src/js/js_libs/star_rating.js",
-  "./src/js/js_libs/swiper-bundle.js",
+  "./src/js/js_libs/swiper-bundle.js"
 ];
 const jsonFiles = ["./src/json_files/*.json"];
 const phpFiles = ["./src/*.php"];
@@ -98,6 +93,8 @@ export function fontsToApp() {
 export function fontsToWoff2() {
   return gulp
     .src([paths.fonts.src], {
+      compressionLevel: 9, // максимальный уровень сжатия
+      removeTable: ["VVAR", "fvar"], // удаление ненужных таблиц
       encoding: false, // Important!
       removeBOM: false,
     })

@@ -6,4 +6,10 @@ burger.addEventListener('click',function(){
     burger.classList.toggle('active');
 });
 
-
+let swiper = new Swiper(".feedbackSwiper", {
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });

@@ -1,0 +1,21 @@
+.swiper-slide {
+  width: 1450px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.feedback {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  max-width: 1920px;
+  position: relative;
+  &__decore {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform:translateY(-25%);
+    width: 125px;
+    @media screen and (max-width:1600px) {
+        display:none;
+    }
+  }
+}
