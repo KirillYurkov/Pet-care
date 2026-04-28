@@ -1,4 +1,5 @@
 let form = document.querySelector('.contact__form');
+console.log(form);
 
 form.addEventListener('submit', function(event) {
   event.preventDefault();

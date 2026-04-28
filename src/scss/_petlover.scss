@@ -29,10 +29,10 @@
     max-width: 654px;
     flex: 1;
   }
-  &__btn{
-      @media screen and (max-width:600px) {
-        width: 100%;
-        text-align: center;
+  &__btn {
+    @media screen and (max-width: 600px) {
+      width: 100%;
+      text-align: center;
     }
   }
 }

@@ -12,10 +12,10 @@
     position: absolute;
     right: 0;
     bottom: 0;
-    transform:translateY(-25%);
+    transform: translateY(-25%);
     width: 125px;
-    @media screen and (max-width:1600px) {
-        display:none;
+    @media screen and (max-width: 1600px) {
+      display: none;
     }
   }
 }

@@ -10,12 +10,12 @@
   &__logo img {
     width: 83px;
     height: 58px;
-    @media screen and (max-width:992px) {
-        position: relative;
-        z-index: 30;
+    @media screen and (max-width: 992px) {
+      position: relative;
+      z-index: 30;
     }
   }
-  &-nav{
+  &-nav {
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -34,10 +34,10 @@
     line-height: 111%;
     color: #4e616d;
   }
-  &__btn{
+  &__btn {
     margin-left: 50px;
-    @media screen and (max-width:992px) {
-        display: none;
+    @media screen and (max-width: 992px) {
+      display: none;
     }
   }
 }

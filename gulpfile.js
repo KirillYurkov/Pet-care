@@ -24,7 +24,7 @@ const cssFiles = [
 const scssFiles = ["./src/scss/**/*.scss"];
 const jsFiles = ["./src/js/send_mail.js","./src/js/main.js"];
 const jsLibsFiles = [
-  "./src/js/js_libs/swiper-bundle.js",
+  "./src/js/js_libs/swiper-bundle.js"
 ];
 const jsonFiles = ["./src/json_files/*.json"];
 const phpFiles = ["./src/*.php"];
