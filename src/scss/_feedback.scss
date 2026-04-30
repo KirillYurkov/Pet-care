@@ -8,6 +8,9 @@
   padding-bottom: 150px;
   max-width: 1920px;
   position: relative;
+  &__title{
+    display: none;
+  }
   &__decore {
     position: absolute;
     right: 0;
