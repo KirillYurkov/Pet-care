@@ -61,14 +61,22 @@
     column-gap: 10px;
   }
 }
-.icons {
+.insta,
+.facebook,
+.twitter,
+.google {
   fill: #fff;
+  // fill: var(--button);
   background: var(--title);
   width: 30px;
   height: 30px;
   border-radius: 5px;
 }
-.icons:hover {
+.insta:hover,
+.facebook:hover,
+.twitter:hover,
+.google:hover
+{
   width: 40px;
   height: 40px;
   background: var(--button);
