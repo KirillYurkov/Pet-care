@@ -93,8 +93,6 @@ export function fontsToApp() {
 export function fontsToWoff2() {
   return gulp
     .src([paths.fonts.src], {
-      compressionLevel: 9, // максимальный уровень сжатия
-      removeTable: ["VVAR", "fvar"], // удаление ненужных таблиц
       encoding: false, // Important!
       removeBOM: false,
     })
